@@ -1,0 +1,15 @@
+# PT
+Speed: 0.8ms pre-process, 15.2ms inference, 2.3ms NMS per image at shape (1, 3, 640, 640)
+Results saved to runs\detect\exp28
+
+# TRT FP32
+Speed: 0.9ms pre-process, 10.0ms inference, 2.4ms NMS per image at shape (1, 3, 384, 640)
+Results saved to runs\detect\exp31
+
+# TRT FP16
+Speed: 0.8ms pre-process, 9.9ms inference, 2.5ms NMS per image at shape (1, 3, 384, 640)
+Results saved to runs\detect\exp33
+
+# TRT FP32 half size
+Speed: 0.6ms pre-process, 5.7ms inference, 2.3ms NMS per image at shape (1, 3, 192, 320)
+Results saved to runs\detect\exp34
